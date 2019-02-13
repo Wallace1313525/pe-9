@@ -8,9 +8,17 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        class Book {
+            private string title;
+            private string author;
+            private int pages;
+            private string owner;
+            private int read;
 
+            Book(title, author, pages, owner)
+            {
+                read = 0;
+            }
         }
     }
 }
